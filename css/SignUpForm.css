@@ -1,0 +1,68 @@
+.signup-container {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the height of the body to 100% of the viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f7ecec; /* Set background color */
+  }
+  
+  .signup-form {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #2c3e50;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #2ecc71;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #2ecc71;
+    font-size: 16px;
+    color: #2ecc71;
+    background-color: #34495e;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus {
+    border-color: #27ae60; /* Lighter shade on focus */
+  }
+  
+  button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #27ae60; /* Darker shade on hover */
+  }
+  

@@ -1,0 +1,179 @@
+* {
+  margin: 0%;
+}
+
+.navbar {
+  color: #ecf0f1;
+  background-color: #2c3e50;
+  padding: 10px 0;
+}
+
+.container {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+}
+
+.logo {
+  color: #2ecc71;
+  font-size: 1.5rem;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.search-bar input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  padding: 8px;
+}
+
+.search-bar button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.account {
+  align-items: center;
+  display: flex;
+}
+
+.account a {
+  color: #ecf0f1;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.account a:hover {
+  color: #2ecc71;
+}
+
+@media (width <= 768px) {
+  .search-bar input[type="text"] {
+    width: 50%;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}
+
+.card {
+  color: #2ecc71;
+  background-color: #2c3e50;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 8px #00010180;
+}
+
+.book-image {
+  flex: 0 0 200px;
+}
+
+.book-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.book-details {
+  padding: 20px;
+}
+
+.book-details h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.book-details p {
+  margin: 10px 0;
+}
+
+.ratings, .book-holders {
+  font-size: 14px;
+}
+
+@media (width <= 768px) {
+  .card {
+    align-items: center;
+  }
+
+  .book-image {
+    margin-bottom: 0;
+  }
+}
+
+.signup-container {
+  background-color: #f7ecec;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.signup-form {
+  background-color: #2c3e50;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #2ecc71;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea {
+  color: #2ecc71;
+  background-color: #34495e;
+  border: 1px solid #2ecc71;
+  border-radius: 4px;
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color .3s;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="tel"]:focus, textarea:focus {
+  border-color: #27ae60;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 16px;
+  transition: background-color .3s;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+/*# sourceMappingURL=index.47ca9330.css.map */
